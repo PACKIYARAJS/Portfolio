@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc52d2efe0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">PACKIYARAJ<span style="color: RED;"> S</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Packiyaraj S</span> <br>From Tirunelveli</h1>
+                <a href="PACKIYARAJS - BBA - 2024 - JAVAFULLSTACK - BESANT TECHNOLOGY.pdf" class="btn">Downlod Cv</a>
+                <div class="social-icons">
+
+                    <a href="mailto:packiyarajs350@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/packiyaraj-s-15b25833a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/PACKIYARAJS"><i class="fa-brands fa-github"></i></a>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/DocScanner Jul 27, 2022 2-53 PM.jpg" alt="images">
+                </div>
+
+                <div class="about-col-2">
+                   <h1 class="sub-tittle">About Me</h1>
+                   <p>Hi, I'm Packiyaraj, a passionate Software Developer with a foundation in HTML, CSS, JavaScript, Bootstrap, Angular, Java, Springboot, SQL. <br>I have experience building dynamic and user-friendly web applications.<br>
+
+                    where I enhanced my skills in Git, GitHub, and API integration.<br> I also utilize AI tools like ChatGPT and deepseek to optimize development workflows.</p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Frontend Development</span><br>HTML, CSS, JavaScript, Bootstrap, Angular</li>
+                        <li><span>Backend Development</span><br>JAVA, Springboot</li>
+                        <li><span>Database</span><br>Oracle SQL</li>
+                        <li><span>Tools & Platforms</span><br>Git, GitHub</li>
+
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>St John's College | Tirunelveli, Tamil Nadu</span><br><br>Bachelor of Business Administration (BBA) <br>June 2021 - July 2024</li>
+                    </ul>
+                </div>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-tittle">My Projects</h1>
+            <div class="project-list">
+
+                <div class="project-box">
+                    <img src="https://media.istockphoto.com/id/636444558/photo/empty-parking-lots-aerial-view.jpg?s=612x612&w=0&k=20&c=8C7yFpdy0QlcJglnwbPXGfDRd9KDjp0rLH9EVXWA0ac=" alt="Parking Management System">
+                    <h2>Parking Management System</h2>
+                    <p>Real-time slot booking, integrated alerts, and a frosted-glass UI for enhanced aesthetics.</p>
+                    <div class="links">
+                        <a href="https://github.com/PACKIYARAJS/Parking.git" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://packiyarajs.github.io/Parking/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="./images/Home_Page_Image.jpg" alt="Fitness">                    
+                    <h2>Fitness Website</h2>
+                    <p>Fitness guidence website using by Angular, integrated API.</p>
+                    <div class="links">
+                        <a href="https://github.com/PACKIYARAJS/Angular-Fitness-Project.git" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://packiyarajs.github.io/Angular-Fitness-Project/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="./images/fresh-vegetables-food.jpg" alt="Organic Food">
+                    <h2>Organic Food</h2>
+                    <p>Organic Food order website 
+
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/PACKIYARAJS/Frontend-Major-Project.git" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://packiyarajs.github.io/Frontend-Major-Project/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="see-more-container">
+                <a href="https://github.com/PACKIYARAJS" class="see-more-btn">See More Projects</a>
+            </div>
+    
+        </div>
+    </div>
+    
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>packiyarajs350@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>9361164564</p>
+                    <div class="social-icons">
+                
+                        <a href="mailto:packiyarajs350@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/packiyaraj-s-15b25833a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/PACKIYARAJS"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="mail" name="Email" placeholder="Your Mail" required>
+                        <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Packiyaraj S <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://retoolapi.dev/l9bFlt/data';
+        const form = document.forms['submit'];
+        const msg = document.getElementById("msg");
+        
+      
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            const name = form['Name'].value;
+            const email = form['Email'].value;
+            const message = form['Message'].value;
+
+            let requestBody = 
+            {
+                Name : name,
+                Email : email,
+                Message : message
+            }
+
+            fetch(scriptURL, { 
+                method: 'POST', 
+                headers: {'Content-Type' : 'application/json'},
+                body: JSON.stringify(requestBody)
+            })
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
